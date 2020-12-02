@@ -2,7 +2,7 @@
 
 # Source Scout App 1.0 README
 
-By [YOUR NAMES HERE]
+By Jamielee Hidalgo, Brandon Powell, Gurvir Singh, Lorelie Perez
 
 Easton Area High School
 
