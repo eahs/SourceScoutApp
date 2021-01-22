@@ -21,6 +21,8 @@ namespace SourceScout
 
             DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
+
+            Shell.Current.GoToAsync("//LoginPage");
         }
 
         protected override void OnStart()
