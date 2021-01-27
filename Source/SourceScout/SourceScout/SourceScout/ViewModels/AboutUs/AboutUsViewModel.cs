@@ -31,7 +31,7 @@ namespace SourceScout.ViewModels.AboutUs
         public AboutUsViewModel()
         {
             this.productDescription =
-                "Source Scout is an app that does super amazing things!";
+                "Source Scout is the best place to fufill your educational needs!";
             this.productIcon = App.BaseImageUrl + "Icon.png";
             this.productVersion = "1.0";
             this.cardsTopImage = App.BaseImageUrl + "Mask.png";
@@ -40,57 +40,27 @@ namespace SourceScout.ViewModels.AboutUs
             {
                 new AboutUsModel
                 {
-                    EmployeeName = "Alice",
+                    EmployeeName = "Jamielee",
                     Image = App.BaseImageUrl + "ProfileImage15.png",
-                    Designation = "Project Manager"
+                    Designation = "Scrum Master  Frontend Developer"
                 },
                 new AboutUsModel
                 {
-                    EmployeeName = "Jessica Park",
+                    EmployeeName = "Brandon",
                     Image = App.BaseImageUrl + "ProfileImage10.png",
-                    Designation = "Senior Manager"
+                    Designation = "Frontend Developer"
                 },
                 new AboutUsModel
                 {
-                    EmployeeName = "Lisa",
+                    EmployeeName = "Lorelie",
                     Image = App.BaseImageUrl + "ProfileImage11.png",
-                    Designation = "Senior Developer"
+                    Designation = "Frontend Developer"
                 },
                 new AboutUsModel
                 {
-                    EmployeeName = "Rebecca",
+                    EmployeeName = "Gurvir",
                     Image = App.BaseImageUrl + "ProfileImage12.png",
-                    Designation = "Senior Designer"
-                },
-                new AboutUsModel
-                {
-                    EmployeeName = "Alexander",
-                    Image = App.BaseImageUrl + "ProfileImage3.png",
-                    Designation = "Senior Manager"
-                },
-                new AboutUsModel
-                {
-                    EmployeeName = "Anthony",
-                    Image = App.BaseImageUrl + "ProfileImage1.png",
-                    Designation = "Senior Developer"
-                },
-                new AboutUsModel
-                {
-                    EmployeeName = "Danielle",
-                    Image = App.BaseImageUrl + "ProfileImage7.png",
-                    Designation = "Senior Developer"
-                },
-                 new AboutUsModel
-                {
-                    EmployeeName = "Kyle Greene",
-                    Image = App.BaseImageUrl + "ProfileImage6.png",
-                    Designation = "Senior Developer"
-                },
-                  new AboutUsModel
-                {
-                    EmployeeName = "Navya Sharma",
-                    Image = App.BaseImageUrl + "ProfileImage13.png",
-                    Designation = "Testing Engineer"
+                    Designation = "Backend Developer"
                 }
             };
 
