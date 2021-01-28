@@ -7,7 +7,7 @@ using Xamarin.Forms;
 namespace SourceScout.ViewModels
 {
     [QueryProperty(nameof(ItemId), nameof(ItemId))]
-    public class ItemDetailViewModel : BaseViewModel
+    public class HomeViewModel : BaseViewModel
     {
         private string itemId;
         private string text;

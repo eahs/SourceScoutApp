@@ -20,7 +20,7 @@ namespace SourceScout.ViewModels
 
         public ItemsViewModel()
         {
-            Title = "Browse";
+            Title = "Home";
             Items = new ObservableCollection<Item>();
 
             ItemTapped = new Command<Item>(OnItemSelected);
@@ -78,7 +78,7 @@ namespace SourceScout.ViewModels
                 return;
 
             // This will push the ItemDetailPage onto the navigation stack
-            await Shell.Current.GoToAsync($"{nameof(ItemDetailPage)}?{nameof(ItemDetailViewModel.ItemId)}={item.Id}");
+            await Shell.Current.GoToAsync($"{nameof(ItemDetailPage)}?{nameof(HomeViewModel.ItemId)}={item.Id}");
         }
     }
 }

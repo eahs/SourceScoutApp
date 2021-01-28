@@ -13,13 +13,13 @@ namespace SourceScout.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DiscoverPage : ContentPage
     {
-        private DiscoverViewModel viewmodel;
+        private ContentViewModel viewmodel;
 
         public DiscoverPage()
         {
             InitializeComponent();
 
-            viewmodel = new DiscoverViewModel();
+            viewmodel = new ContentViewModel();
             this.BindingContext = viewmodel;
         }
 

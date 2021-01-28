@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace SourceScout.ViewModels
 {
-    public class DiscoverViewModel : BaseViewModel
+    public class ContentViewModel : BaseViewModel
     {
         public ObservableCollection<Post> Posts { get; set; }
 
-        public DiscoverViewModel ()
+        public ContentViewModel ()
         {
             Posts = new ObservableRangeCollection<Post>();
             LoadItemsCommand.Execute(null);
@@ -31,11 +31,16 @@ namespace SourceScout.ViewModels
 
                 Posts.Add(new Post
                 {
-                    Title = "Hello there"
+                    Title = "Math Help"
+
+
                 });
                 Posts.Add(new Post
                 {
-                    Title = "I have the high ground"
+                    Title = "Quantum Mechanics in Minutes"
+
+
+
                 });
 
                 if (success)
