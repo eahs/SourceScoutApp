@@ -98,6 +98,9 @@
         await Shell.Current.GoToAsync("//LoginPage");
     -->
     <ShellContent Route="LoginPage" Shell.NavBarIsVisible="False" Shell.FlyoutBehavior="Disabled" ContentTemplate="{DataTemplate login:LoginPage}" />
+    <ShellContent Route="SignUpPage" Shell.NavBarIsVisible="False" Shell.FlyoutBehavior="Disabled" ContentTemplate="{DataTemplate login:SignUpPage}" />
+    <ShellContent Route="ForgotPassword" Shell.NavBarIsVisible="False" Shell.FlyoutBehavior="Disabled" ContentTemplate="{DataTemplate login:ForgotPasswordPage}" />
+    
 
     <!-- Optional Templates 
     // These may be provided inline as below or as separate classes.
